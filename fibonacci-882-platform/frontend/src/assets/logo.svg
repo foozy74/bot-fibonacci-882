@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="fibGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#06b6d4;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:0.8" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Fibonacci Spiral -->
+  <g fill="none" stroke="url(#fibGradient)" stroke-width="1.5" filter="url(#glow)" opacity="0.9">
+    <!-- Spiral path -->
+    <path d="M 100 100 
+             L 100 80 
+             A 20 20 0 0 1 120 100 
+             L 120 100 
+             A 40 40 0 0 1 80 140 
+             L 80 140 
+             A 60 60 0 0 1 140 80 
+             L 140 80 
+             A 80 80 0 0 1 60 160" 
+          stroke-linecap="round"/>
+    
+    <!-- Golden Ratio Rectangles -->
+    <rect x="80" y="80" width="20" height="20" stroke="url(#fibGradient)" stroke-width="0.8" opacity="0.4"/>
+    <rect x="100" y="80" width="20" height="40" stroke="url(#fibGradient)" stroke-width="0.8" opacity="0.4"/>
+    <rect x="80" y="100" width="40" height="40" stroke="url(#fibGradient)" stroke-width="0.8" opacity="0.4"/>
+    <rect x="80" y="60" width="60" height="60" stroke="url(#fibGradient)" stroke-width="0.8" opacity="0.4"/>
+    <rect x="40" y="100" width="80" height="80" stroke="url(#fibGradient)" stroke-width="0.8" opacity="0.4"/>
+  </g>
+  
+  <!-- Center glow -->
+  <circle cx="100" cy="100" r="3" fill="url(#fibGradient)" opacity="0.8">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+  </circle>
+</svg>

@@ -1,0 +1,41 @@
+{
+  "bitunix": {
+    "api_key": "11b2dc1b2a43b633fe03ab9b2f4cba30",
+    "api_secret": "8531e6f3441d618c571f7207bc2fa236",
+    "trading_mode": "paper"
+  },
+  "binance_futures": {
+    "api_key": "BXLbDHDQwEMwuUZX03N4kjlw2AiwkY7M84BmZdvUk56tDFYXcZAThP0UUVJ4Jdg4",
+    "api_secret": "yCBfQ0AazIzTpm59yifbERsgCQms3cko7Au4Wn1KffqujoXfP4YqrVeRl5E5jcTy",
+    "testnet": true,
+    "enabled": true
+  },
+  "websocket": {
+    "primary_uri": "wss://openapi.bitunix.com/ws",
+    "fallback_uri": "wss://fapi.bitunix.com/ws"
+  },
+  "telegram": {
+    "bot_token": "8087146778:AAFwWSgaT_Da3-PLMWFovNLUtC7k-MGOAxg",
+    "chat_id": "8087146778",
+    "enabled": true,
+    "notify_signals": true,
+    "notify_trades": true,
+    "notify_errors": true,
+    "daily_summary": true
+  },
+  "trading": {
+    "symbol": "BTCUSDT",
+    "timeframe": "15m",
+    "risk_pct": 2,
+    "platform": "binance_futures",
+    "leverage": 20,
+    "margin_mode": "ISOLATED"
+  },
+  "backtest": {
+    "candles": 500
+  },
+  "scanner": {
+    "enabled": true,
+    "interval": 60
+  }
+}

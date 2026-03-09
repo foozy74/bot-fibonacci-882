@@ -1,0 +1,1250 @@
+[
+  {
+    "id": "b25a9115",
+    "timestamp": "2026-03-08T17:25:58.640196+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 67337.67,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 2.07,
+    "confluence_score": 3
+  },
+  {
+    "id": "3fb31c46",
+    "timestamp": "2026-03-08T17:25:58.640243+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "d1937d1a",
+    "timestamp": "2026-03-08T17:28:29.816981+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 67337.67,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 2.07,
+    "confluence_score": 3
+  },
+  {
+    "id": "96eca7f0",
+    "timestamp": "2026-03-08T17:28:29.817053+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "5156f623",
+    "timestamp": "2026-03-08T17:49:33.358820+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "935bc088",
+    "timestamp": "2026-03-08T18:08:36.124247+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "06b1df09",
+    "timestamp": "2026-03-08T18:09:36.743480+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "7e27e30b",
+    "timestamp": "2026-03-08T18:10:42.947863+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "57931ecf",
+    "timestamp": "2026-03-08T18:11:43.888871+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "8e5c3877",
+    "timestamp": "2026-03-08T18:12:45.622098+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "f3d06896",
+    "timestamp": "2026-03-08T18:13:46.075129+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "f006196e",
+    "timestamp": "2026-03-08T18:14:46.782764+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "64b6d8bb",
+    "timestamp": "2026-03-08T18:15:47.425891+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "aa19ef80",
+    "timestamp": "2026-03-08T18:16:47.940322+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "02c2d94b",
+    "timestamp": "2026-03-08T18:17:48.532663+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "b6ba2f27",
+    "timestamp": "2026-03-08T18:18:49.138138+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "e7b96dd9",
+    "timestamp": "2026-03-08T18:19:49.971953+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "01160284",
+    "timestamp": "2026-03-08T18:20:50.588446+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "sniper",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 4
+  },
+  {
+    "id": "bf9ab175",
+    "timestamp": "2026-03-08T18:21:54.223350+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "90aa932e",
+    "timestamp": "2026-03-08T18:22:54.824228+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "20dde837",
+    "timestamp": "2026-03-08T18:23:55.640704+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "ff1280d0",
+    "timestamp": "2026-03-08T18:24:56.741233+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "80e44bf4",
+    "timestamp": "2026-03-08T18:25:57.985059+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "sniper",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 4
+  },
+  {
+    "id": "0e4d920c",
+    "timestamp": "2026-03-08T18:26:58.904546+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "sniper",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 4
+  },
+  {
+    "id": "fee84c60",
+    "timestamp": "2026-03-08T18:27:59.464057+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "b19527cd",
+    "timestamp": "2026-03-08T18:29:00.943372+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "10dfc86a",
+    "timestamp": "2026-03-08T18:30:01.564924+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "b11cb41f",
+    "timestamp": "2026-03-08T18:31:02.250131+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "2c79cade",
+    "timestamp": "2026-03-08T18:32:02.894777+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "c1111ea2",
+    "timestamp": "2026-03-08T18:33:05.147156+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "aef8b7e5",
+    "timestamp": "2026-03-08T18:34:05.531197+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "806c3e70",
+    "timestamp": "2026-03-08T18:35:06.396912+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "1ee20dbc",
+    "timestamp": "2026-03-08T18:36:07.035100+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "cabeb0fc",
+    "timestamp": "2026-03-08T18:37:08.506146+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "4dd2cf9e",
+    "timestamp": "2026-03-08T18:38:09.268807+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "39e427c1",
+    "timestamp": "2026-03-08T18:39:09.942543+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "28b63c58",
+    "timestamp": "2026-03-08T18:40:10.672567+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "b514bbdb",
+    "timestamp": "2026-03-08T18:41:14.906147+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "c0ec2bda",
+    "timestamp": "2026-03-08T18:42:16.598026+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "319eb2af",
+    "timestamp": "2026-03-08T18:43:17.293769+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "49cb9d2f",
+    "timestamp": "2026-03-08T18:44:18.925612+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "cae52d27",
+    "timestamp": "2026-03-08T18:45:19.461787+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "d2ab90ab",
+    "timestamp": "2026-03-08T18:46:23.127990+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "214e5268",
+    "timestamp": "2026-03-08T18:47:24.769012+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "sniper",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 4
+  },
+  {
+    "id": "77a02a2d",
+    "timestamp": "2026-03-08T18:48:26.210548+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "sniper",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 4
+  },
+  {
+    "id": "025b5807",
+    "timestamp": "2026-03-08T18:49:26.810050+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "e3bb5ce0",
+    "timestamp": "2026-03-08T18:50:27.438306+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "0a70fc7e",
+    "timestamp": "2026-03-08T18:51:28.127398+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "d331a306",
+    "timestamp": "2026-03-08T18:52:28.466558+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "309f3180",
+    "timestamp": "2026-03-08T18:53:30.015896+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "712bfe25",
+    "timestamp": "2026-03-08T18:54:30.359991+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "5ec77439",
+    "timestamp": "2026-03-08T18:55:30.903272+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "58e4cae0",
+    "timestamp": "2026-03-08T18:56:33.257969+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "6c46162c",
+    "timestamp": "2026-03-08T18:57:33.654962+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "ce4bf360",
+    "timestamp": "2026-03-08T18:58:35.009728+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "8ff45d0b",
+    "timestamp": "2026-03-08T18:59:35.468239+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "782e6cff",
+    "timestamp": "2026-03-08T19:00:35.814588+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "8e7b5612",
+    "timestamp": "2026-03-08T19:01:36.212841+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "00760348",
+    "timestamp": "2026-03-08T19:02:36.575124+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "10aab5fd",
+    "timestamp": "2026-03-08T19:03:37.436160+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "d335fa22",
+    "timestamp": "2026-03-08T19:04:37.945961+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "d54e83b2",
+    "timestamp": "2026-03-08T19:05:38.429086+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "94d4da40",
+    "timestamp": "2026-03-08T19:06:39.506380+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "cd998e9b",
+    "timestamp": "2026-03-08T19:07:39.864841+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "627fc4ca",
+    "timestamp": "2026-03-08T19:08:40.346167+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "8688b92e",
+    "timestamp": "2026-03-08T19:09:40.712981+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "d610506f",
+    "timestamp": "2026-03-08T19:10:41.152686+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "9117956e",
+    "timestamp": "2026-03-08T19:11:41.564115+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "bafc262d",
+    "timestamp": "2026-03-08T19:12:41.985754+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "a7886b66",
+    "timestamp": "2026-03-08T19:13:42.361338+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "83253814",
+    "timestamp": "2026-03-08T19:14:42.717968+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "c1c841f3",
+    "timestamp": "2026-03-08T19:15:43.125455+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "0da7cca3",
+    "timestamp": "2026-03-08T19:16:43.478959+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 67337.67,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 2.07,
+    "confluence_score": 3
+  },
+  {
+    "id": "27ca85c1",
+    "timestamp": "2026-03-08T19:16:43.479019+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "7e09fb55",
+    "timestamp": "2026-03-08T19:17:43.864645+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 67337.67,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 2.07,
+    "confluence_score": 3
+  },
+  {
+    "id": "c1c3c6cb",
+    "timestamp": "2026-03-08T19:17:43.864727+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  },
+  {
+    "id": "07ca1d1e",
+    "timestamp": "2026-03-08T19:18:44.299032+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 67337.67,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 2.07,
+    "confluence_score": 3
+  },
+  {
+    "id": "a870feba",
+    "timestamp": "2026-03-08T19:18:44.299093+00:00",
+    "symbol": "BTCUSDT",
+    "type": "long",
+    "strength": "strong",
+    "entry_price": 66922.83,
+    "stop_loss": 66441.49,
+    "take_profits": [
+      69193.88,
+      70023.55,
+      70853.22
+    ],
+    "crv": 4.72,
+    "confluence_score": 3
+  }
+]
