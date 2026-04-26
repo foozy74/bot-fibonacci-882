@@ -1,73 +1,64 @@
-/* frontend/src/components/ControlPanel.css */
-.control-panel .stats-grid {
+/* frontend/src/components/ChartPanel.css */
+.chart-panel {
+    min-height: 500px;
+    padding: 32px;
+}
+
+.chart-container {
+    width: 100%;
+    height: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 24px;
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid var(--border);
+}
+
+.fib-canvas {
+    width: 100%;
+    height: 100%;
+}
+
+.level-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     gap: 12px;
-    margin-bottom: 20px;
 }
 
-.stat {
-    background: rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    padding: 12px;
+.level-item {
     display: flex;
-    flex-direction: column;
-    gap: 4px;
-}
-
-.stat-label {
-    font-size: 0.7rem;
-    color: var(--text-muted);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.stat-value {
-    font-size: 1.1rem;
-    font-weight: 600;
-}
-
-.controls {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    margin-bottom: 20px;
-}
-
-.controls label {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-}
-
-.controls label span {
-    font-size: 0.8rem;
-    color: var(--text-secondary);
-}
-
-.controls select {
-    width: 140px;
-}
-
-.open-positions {
-    margin-bottom: 16px;
-}
-
-.open-positions h4 {
+    gap: 10px;
+    padding: 12px 16px;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid var(--border);
+    border-radius: 12px;
     font-size: 0.75rem;
-    color: var(--text-muted);
-    margin-bottom: 8px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    transition: var(--transition);
 }
 
-.position-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px;
-    background: rgba(0, 0, 0, 0.15);
-    border-radius: 8px;
-    margin-bottom: 4px;
-    font-size: 0.85rem;
+.level-item:hover {
+    background: rgba(255, 255, 255, 0.04);
+    border-color: var(--teal-dim);
+}
+
+.level-item.target {
+    border-color: var(--teal);
+    background: var(--teal-dim);
+    box-shadow: 0 0 15px var(--teal-glow);
+}
+
+.level-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 2px;
+    flex-shrink: 0;
+}
+
+.level-item .mono {
+    margin-left: auto;
+    font-size: 0.7rem;
+    font-weight: 800;
+    color: var(--text-muted);
+    font-family: var(--font-mono);
 }

@@ -164,175 +164,155 @@ export default function Dashboard() {
     }
 
     return (
-        <div className="dashboard">
-            {/* Header Stats Row */}
+        <>
+
             <div className="dashboard-header">
                 <div className="glass-card stat-card">
-                    <div className="stat-label">BTC/USDT</div>
-                    <div className="stat-value price-value">
-                        {formatPrice(price)}
-                    </div>
+                    <div className="stat-label">MARKET PRICE</div>
+                    <div className="stat-value price-value">{formatPrice(price)}</div>
                     <div className="stat-sub">
                         <span className={`ws-indicator ${wsConnected ? 'connected' : 'disconnected'}`}>
-                            {wsConnected ? '● LIVE' : '○ OFFLINE'}
+                            {wsConnected ? '● NEURAL_LINK_OK' : '○ LINK_LOST'}
                         </span>
                         <span className="last-update">{formatTime(lastUpdate)}</span>
                     </div>
                 </div>
 
                 <div className="glass-card stat-card">
-                    <div className="stat-label">Balance</div>
+                    <div className="stat-label">EQUITY // BALANCE</div>
                     <div className="stat-value">
                         {formatPrice(status?.account?.balance || status?.account?.equity || 0)}
                     </div>
                     <div className="stat-sub">
-                        <span className={`mode-badge mode-${tradingMode}`}>{tradingMode.toUpperCase()}</span>
-                        <span className={`balance-source ${status?.balance_source === 'live' ? 'live' : status?.balance_source === 'fallback' ? 'warning' : ''}`}>
-                            {status?.balance_source === 'live' ? '🟢 LIVE API' : status?.balance_source === 'fallback' ? '⚠️ FALLBACK' : '📄 PAPER'}
+                        <span className={`badge ${tradingMode === 'live' ? 'badge-live' : 'badge-paper'}`}>{tradingMode}</span>
+                        <span className="uppercase text-[9px] tracking-widest font-black">
+                            {status?.balance_source === 'live' ? 'API_VERIFIED' : 'PAPER_SIM'}
                         </span>
                     </div>
-                    {status?.balance_warning && (
-                        <div className="balance-warning">
-                            ⚠️ {status.balance_warning}
-                        </div>
-                    )}
                 </div>
 
                 <div className="glass-card stat-card">
-                    <div className="stat-label">P&L</div>
-                    <div className={`stat-value ${(status?.account?.total_pnl || 0) >= 0 ? 'positive' : 'negative'}`}>
+                    <div className="stat-label">PROFIT & LOSS</div>
+                    <div className={`stat-value ${(status?.account?.total_pnl || 0) >= 0 ? 'pnl-positive' : 'pnl-negative'}`}>
                         {formatPrice(status?.account?.total_pnl || 0)}
                     </div>
                     <div className="stat-sub">
-                        <span>Open: {status?.account?.open_count || 0}</span>
-                        <span>Closed: {status?.account?.closed_count || 0}</span>
+                        <span>OPEN: {status?.account?.open_count || 0}</span>
+                        <span>CLOSED: {status?.account?.closed_count || 0}</span>
                     </div>
                 </div>
 
                 <div className="glass-card stat-card">
-                    <div className="stat-label">Signals</div>
-                    <div className="stat-value">{signals.length}</div>
+                    <div className="stat-label">ACTIVE SIGNALS</div>
+                    <div className="stat-value text-blue">{signals.length}</div>
                     <div className="stat-sub">
-                        <button className="scan-btn" onClick={scanSignals}>🔍 Scan Now</button>
+                        <span className="uppercase text-[9px] tracking-widest font-black">SQUAWK_BOX_ACTIVE</span>
                     </div>
                 </div>
             </div>
 
-            {/* Main Content Grid */}
             <div className="dashboard-grid">
-                {/* Fibonacci Levels Panel */}
                 <div className="glass-card fib-panel">
-                    <h3 className="panel-title">📐 Fibonacci Levels</h3>
+                    <h3 className="panel-title">
+                        <span>FIBONACCI_LEVELS</span>
+                        <span className="text-[10px] text-teal opacity-50">AUTO_SCAN</span>
+                    </h3>
 
                     {fibonacci ? (
                         <div className="fib-levels-list">
-                            <FibLevel label="Swing High (0.0)" price={fibonacci.level_0} current={price} type="boundary" />
-                            <FibLevel label="23.6%" price={fibonacci.level_236} current={price} type="standard" />
-                            <FibLevel label="38.2%" price={fibonacci.level_382} current={price} type="standard" />
-                            <FibLevel label="50.0%" price={fibonacci.level_500} current={price} type="standard" />
-                            <FibLevel label="61.8% (Golden Pocket)" price={fibonacci.level_618} current={price} type="golden" />
-                            <FibLevel label="78.6%" price={fibonacci.level_786} current={price} type="entry" />
-                            <div className="fib-separator" />
-                            <FibLevel label="⭐ 88.2% (Primary Sniper)" price={fibonacci.level_882} current={price} type="sniper" />
-                            <FibLevel label="⭐ 94.1% (Deep Value)" price={fibonacci.level_941} current={price} type="sniper" />
-                            <div className="fib-separator" />
-                            <FibLevel label="Swing Low (1.0)" price={fibonacci.swing_low} current={price} type="boundary" />
+                            <FibLevel label="SWING_HIGH" price={fibonacci.level_0} current={price} type="boundary" />
+                            <FibLevel label="0.236_LEVEL" price={fibonacci.level_236} current={price} type="standard" />
+                            <FibLevel label="0.382_LEVEL" price={fibonacci.level_382} current={price} type="standard" />
+                            <FibLevel label="0.500_LEVEL" price={fibonacci.level_500} current={price} type="standard" />
+                            <FibLevel label="0.618_GOLDEN" price={fibonacci.level_618} current={price} type="golden" />
+                            <FibLevel label="0.786_DEEP" price={fibonacci.level_786} current={price} type="entry" />
+                            <div className="h-px bg-white/5 my-2" />
+                            <FibLevel label="0.882_SNIPER" price={fibonacci.level_882} current={price} type="sniper" />
+                            <FibLevel label="0.941_ALPHA" price={fibonacci.level_941} current={price} type="sniper" />
+                            <div className="h-px bg-white/5 my-2" />
+                            <FibLevel label="SWING_LOW" price={fibonacci.swing_low} current={price} type="boundary" />
                         </div>
                     ) : (
-                        <div className="no-data">Waiting for Fibonacci data...</div>
+                        <div className="text-text-faint text-center py-12 font-mono text-xs uppercase tracking-widest animate-pulse">
+                            CALIBRATING_LEVELS...
+                        </div>
                     )}
                 </div>
 
-                {/* Signal Panel */}
                 <div className="glass-card signal-panel">
-                    <h3 className="panel-title">🎯 Active Signals</h3>
+                    <h3 className="panel-title">
+                        <span>NEURAL_SIGNALS</span>
+                        <span className="text-[10px] text-blue opacity-50">READY</span>
+                    </h3>
 
                     {signals.length > 0 ? (
                         <div className="signals-list">
                             {signals.map(signal => (
-                                <div key={signal.id} className="signal-card">
-                                    <div className="signal-header">
-                                        <span className="signal-symbol">{signal.symbol}</span>
+                                <div key={signal.id} className="signal-card group">
+                                    <div className="signal-header border-b border-white/5 pb-3 mb-4">
+                                        <span className="font-black text-white tracking-tighter">{signal.symbol}</span>
                                         <span 
-                                            className="signal-strength"
+                                            className="signal-crv ml-auto"
                                             style={{ color: getStrengthColor(signal.strength) }}
                                         >
-                                            {signal.strength}
+                                            {signal.strength} // CRV {signal.crv?.toFixed(2)}
                                         </span>
                                     </div>
 
-                                    <div className="signal-details">
-                                        <div className="detail-row">
-                                            <span className="label">Entry:</span>
-                                            <span className="value">{formatPrice(signal.entry_price)}</span>
+                                    <div className="grid grid-cols-2 gap-4 mb-6">
+                                        <div className="flex flex-col">
+                                            <span className="text-[9px] text-text-faint font-black uppercase tracking-widest">Entry</span>
+                                            <span className="font-mono text-xs text-white">{formatPrice(signal.entry_price)}</span>
                                         </div>
-                                        <div className="detail-row">
-                                            <span className="label">SL:</span>
-                                            <span className="value">{formatPrice(signal.stop_loss)}</span>
-                                        </div>
-                                        <div className="detail-row">
-                                            <span className="label">TPs:</span>
-                                            <span className="value">
-                                                {signal.take_profits.map((tp, i) => (
-                                                    <span key={i}>{formatPrice(tp)}{i < signal.take_profits.length - 1 ? ', ' : ''}</span>
-                                                ))}
-                                            </span>
-                                        </div>
-                                        <div className="detail-row">
-                                            <span className="label">CRV:</span>
-                                            <span className="value">{signal.crv?.toFixed(2)}</span>
+                                        <div className="flex flex-col">
+                                            <span className="text-[9px] text-text-faint font-black uppercase tracking-widest">Risk</span>
+                                            <span className="font-mono text-xs text-red-400">{formatPrice(signal.stop_loss)}</span>
                                         </div>
                                     </div>
 
-                                    <div className="signal-actions">
+                                    <div className="flex gap-2">
                                         <button 
-                                            className="action-btn buy-btn"
+                                            className="btn btn-primary flex-1 !py-3 !text-[10px]"
                                             onClick={() => executeTrade(signal, 'buy')}
                                             disabled={tradingMode !== 'live'}
                                         >
-                                            🟢 BUY
+                                            EXECUTE_LONG
                                         </button>
                                         <button 
-                                            className="action-btn sell-btn"
+                                            className="btn flex-1 !py-3 !text-[10px] border-red-500/20 text-red-400 hover:bg-red-500/10"
                                             onClick={() => executeTrade(signal, 'sell')}
                                             disabled={tradingMode !== 'live'}
                                         >
-                                            🔴 SELL
+                                            EXECUTE_SHORT
                                         </button>
                                     </div>
-
-                                    {tradingMode !== 'live' && (
-                                        <div className="paper-mode-notice">
-                                            Switch to Live Mode to execute trades
-                                        </div>
-                                    )}
                                 </div>
                             ))}
                         </div>
                     ) : (
-                        <div className="no-data">
-                            No active signals. Click "Scan Now" to search for opportunities.
+                        <div className="text-text-faint text-center py-12 font-mono text-xs uppercase tracking-widest">
+                            NO_CONFLUENCE_DETECTED
                         </div>
                     )}
                 </div>
             </div>
-
-            {/* History Panel */}
+            
             <HistoryPanel />
-        </div>
+        </>
     )
 }
 
-// FibLevel Component
 function FibLevel({ label, price, current, type }) {
     const proximity = current && price ? ((current - price) / price * 100).toFixed(3) : 0
-    const isClose = Math.abs(proximity) < 0.5
+    const isAtLevel = Math.abs(proximity) < 0.05
 
     return (
-        <div className={`fib-level ${type} ${isClose ? 'active' : ''}`}>
+        <div className={`fib-row fib-row-${type} ${isAtLevel ? 'fib-at-level' : ''}`}>
             <div className="fib-label">{label}</div>
-            <div className="fib-price">${price?.toFixed(2)}</div>
-            <div className="fib-proximity">{proximity > 0 ? '+' : ''}{proximity}%</div>
+            <div className="fib-price font-mono">{price?.toFixed(2)}</div>
+            <div className={`fib-proximity font-mono ${proximity > 0 ? 'above' : 'below'}`}>
+                {proximity > 0 ? '+' : ''}{proximity}%
+            </div>
         </div>
     )
 }

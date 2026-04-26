@@ -25,8 +25,8 @@ logger = logging.getLogger(__name__)
 
 
 # Binance Futures WebSocket URLs
-BINANCE_WS_URL = "wss://fstream.binance.com"
-BINANCE_TESTNET_WS_URL = "wss://fstream.binancefuture.com"
+BINANCE_WS_URL = "wss://fstream.binance.com/ws"
+BINANCE_TESTNET_WS_URL = "wss://fstream.binancefuture.com/ws"
 
 # Stream types
 STREAM_KLINE = "kline"

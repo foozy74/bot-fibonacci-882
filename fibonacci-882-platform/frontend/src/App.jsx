@@ -44,37 +44,45 @@ export default function App() {
             <header className="app-header">
                 <div className="header-left">
                     <h1 className="logo">
-                        <img src={logo} alt="Fibonacci-882 Logo" className="logo-image" />
+                        <div className="relative group">
+                            <div className="absolute -inset-2 bg-teal/20 rounded-full blur-xl opacity-50 group-hover:opacity-100 transition-opacity" />
+                            <img src={logo} alt="Fib-882 Logo" className="logo-image relative" />
+                        </div>
                         <span className="logo-text">
-                            <span className="logo-main">FIB-882</span>
-                            <span className="logo-sub">Sniper Platform</span>
+                            <span className="logo-main uppercase">THESOLUTION<span style={{ color: 'var(--teal)' }}>.AT</span> // FIBONACCI_882</span>
+                            <span className="logo-sub">
+                                <span style={{ opacity: 0.2, marginRight: '8px' }}>—</span> 
+                                DER SMARTE WEG ZU DEINEN TRADES
+                            </span>
                         </span>
                     </h1>
                 </div>
                 <div className="header-right">
-                    <span className="header-badge" title="Trading Pair">BTCUSDT</span>
-                    <span className={`header-badge ${tradingMode === 'live' ? 'badge-live' : 'badge-paper'}`} title="Trading Mode">
-                        {tradingMode.toUpperCase()}
+                    <span className="header-badge" title="Market Protocol">BTCUSDT // PERP</span>
+                    <span className={`badge ${tradingMode === 'live' ? 'badge-live' : 'badge-paper'}`}>
+                        {tradingMode.toUpperCase()} STRATEGY
                     </span>
                     {tradingPlatform === 'binance_futures' && (
-                        <span className="header-badge badge-platform" title="Platform">
-                            {testnet ? '🧪 TESTNET' : '🔷 BINANCE'}
+                        <span className="header-badge font-bold text-blue">
+                            {testnet ? 'TESTNET PROTOCOL' : 'BINANCE MAINNET'}
                         </span>
                     )}
-                    <button 
-                        className="help-btn"
-                        onClick={() => setHelpOpen(true)}
-                        title="Help & FAQ"
-                    >
-                        ❓
-                    </button>
-                    <button 
-                        className="settings-btn"
-                        onClick={() => setSettingsOpen(true)}
-                        title="Settings"
-                    >
-                        ⚙️
-                    </button>
+                    <div className="flex gap-2 ml-4 border-l border-white/10 pl-4">
+                        <button 
+                            className="btn px-3"
+                            onClick={() => setHelpOpen(true)}
+                            title="Documentation"
+                        >
+                            DOCS
+                        </button>
+                        <button 
+                            className="btn btn-primary"
+                            onClick={() => setSettingsOpen(true)}
+                            title="Neural Config"
+                        >
+                            CONFIG
+                        </button>
+                    </div>
                 </div>
             </header>
             <main>

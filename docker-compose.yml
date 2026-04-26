@@ -38,7 +38,6 @@ services:
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.fib-router.rule=Host(`fib.thesolution.at`)"
-      - "traefik.http.routers.fib-router.entrypoints=websecure"
       - "traefik.http.routers.fib-router.tls=true"
       - "traefik.http.routers.fib-router.middlewares=fib-trading-auth"
       - "traefik.http.middlewares.fib-trading-auth.basicauth.users=owner:$$apr1$$y.Usukd9$$mCpYYvB1OBHCfULMnn0/f."
