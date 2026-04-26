@@ -6,15 +6,22 @@ services:
       context: ./backend
       dockerfile: Dockerfile
     container_name: fib882-backend
-    ports:
-      - "8000:8000"
     environment:
       - BITUNIX_API_KEY=${BITUNIX_API_KEY:-}
       - BITUNIX_API_SECRET=${BITUNIX_API_SECRET:-}
       - TRADING_MODE=${TRADING_MODE:-paper}
       - LOG_LEVEL=${LOG_LEVEL:-INFO}
+      - BITUNIX_BASE_URL=https://api.bitunix.com
+      - DEFAULT_SYMBOL=BTCUSDT
+      - DEFAULT_TIMEFRAME=5m
+      - RISK_PCT=0.02
+      - DRY_RUN=true
+      - APP_ENV=production
+      - SECRET_KEY=${SECRET_KEY}
     volumes:
       - ./data:/app/data
+    networks:
+      - tradehub-network
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
@@ -27,13 +34,21 @@ services:
       context: ./frontend
       dockerfile: Dockerfile
     container_name: fib882-frontend
-    ports:
-      - "3000:80"
     depends_on:
       backend:
         condition: service_healthy
+    networks:
+      - tradehub-network
     restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.fib-router.rule=Host(`fib.thesolution.at`)"
+      - "traefik.http.routers.fib-router.entrypoints=websecure"
+      - "traefik.http.routers.fib-router.tls=true"
+      - "traefik.http.routers.fib-router.middlewares=fib-trading-auth"
+      - "traefik.http.middlewares.fib-trading-auth.basicauth.users=owner:$$apr1$$y.Usukd9$$mCpYYvB1OBHCfULMnn0/f."
+      - "traefik.http.services.fib-router.loadbalancer.server.port=80"
 
 networks:
-  default:
-    name: fib882-network
+  tradehub-network:
+    external: true
