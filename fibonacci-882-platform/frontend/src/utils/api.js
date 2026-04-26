@@ -28,26 +28,6 @@ export const api = {
         return res.json()
     },
 
-    async post(path, body = {}) {
-        const res = await fetch(`${BASE_URL}${path}`, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(body),
-        })
-        if (!res.ok) throw new Error(`POST ${path} failed: ${res.status}`)
-        return res.json()
-    },
-
-    async put(path, body = {}) {
-        const res = await fetch(`${BASE_URL}${path}`, {
-            method: 'PUT',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(body),
-        })
-        if (!res.ok) throw new Error(`PUT ${path} failed: ${res.status}`)
-        return res.json()
-    },
-
     connectWebSocket(onMessage) {
         const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:'
         const host = import.meta.env.PROD ? window.location.host : 'localhost:8000'
