@@ -40,7 +40,7 @@ services:
       - "traefik.http.routers.fib-router.rule=Host(`fib.thesolution.at`)"
       - "traefik.http.routers.fib-router.tls=true"
       - "traefik.http.routers.fib-router.middlewares=fib-trading-auth"
-      - "traefik.http.middlewares.fib-trading-auth.basicauth.users=owner:$$apr1$$y.Usukd9$$mCpYYvB1OBHCfULMnn0/f."
+      - "traefik.http.middlewares.fib-trading-auth.basicauth.users=owner:$$apr1$$m3CeOzZ3$$I3WXxNUs8lJ.hx5foBv3C0"
       - "traefik.http.services.fib-router.loadbalancer.server.port=80"
 
 networks:
